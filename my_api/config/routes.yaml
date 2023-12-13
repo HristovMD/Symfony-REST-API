@@ -1,0 +1,13 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+api_articles_active:
+    path: /api/articles/active
+    controller: App\Controller\ArticleController::active
+    methods: [GET]
+
+api_articles_add:
+    path: /api/articles/add
+    controller: App\Controller\ArticleController::add
+    methods: [POST]
